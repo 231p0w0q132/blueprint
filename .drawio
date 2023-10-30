@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2023-10-30T10:48:03.712Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" version="22.0.8" etag="JwmlTBe6UJP3qDD1UATS" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-30T11:10:31.811Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="f-k5vVPzQ8uuEJGhQul6" version="22.0.8" type="github">
   <diagram name="페이지-1" id="8w04S1fC7oXCp2rjPd3L">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="746" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry width="1020" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="110" width="420" height="780" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="110" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="980" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-16" value="add" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="520" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-20" value="목표 리스트!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" vertex="1" parent="1">
+          <mxGeometry x="410" y="35" width="144" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="380" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-22" value="달리기 30KM" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="130" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-24" value="23/09/22-23/10/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-26" value="1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="120" width="50" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-29" value="성공" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="63" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-30" value="포기" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="920" y="120" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="1">
+          <mxGeometry x="777" y="120" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-33" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="767" y="125" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-34" value="푸쉬업 100개하기" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="494" y="125" width="116" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-35" value="목표일23/09/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="145" width="110" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
