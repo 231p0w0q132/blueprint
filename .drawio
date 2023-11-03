@@ -1,26 +1,26 @@
-<mxfile host="app.diagrams.net" modified="2023-11-03T09:13:56.847Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="eSxIJ3lSO6Nhs-oUGlwC" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-03T10:17:48.601Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="fmvfkeOorg7rEHU0owta" version="22.0.8" type="github">
   <diagram name="페이지-1" id="8w04S1fC7oXCp2rjPd3L">
-    <mxGraphModel dx="2419" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1323" dy="995" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-10" width="1590" height="920" as="geometry" />
+          <mxGeometry x="-10" width="1030" height="920" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="20" y="110" width="420" height="780" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-10" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="480" y="110" width="520" height="60" as="geometry" />
+          <mxGeometry x="470" y="110" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="20" y="20" width="1530" height="60" as="geometry" />
+          <mxGeometry x="20" y="20" width="970" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-16" value="add" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="480" y="260" width="520" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-20" value="목표 리스트!" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;" parent="1" vertex="1">
-          <mxGeometry x="713" y="35" width="144" height="30" as="geometry" />
+          <mxGeometry x="360" y="35" width="144" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-21" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="130" width="380" height="60" as="geometry" />
@@ -34,23 +34,8 @@
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-26" value="1" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="120" width="50" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-29" value="성공" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="840" y="120" width="63" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-30" value="포기" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="920" y="120" width="60" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-32" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" parent="1" vertex="1">
-          <mxGeometry x="777" y="120" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-33" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="767" y="125" width="60" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="2kJuGeAkiAzwiO9a8Ipx-34" value="푸쉬업 100개하기" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="494" y="125" width="116" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="2kJuGeAkiAzwiO9a8Ipx-35" value="목표일23/09/24" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="670" y="145" width="110" height="30" as="geometry" />
         </mxCell>
         <mxCell id="WgpJdFppTZSYGFujvV3v-2" value="1 : 2 :3&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="480" y="190" width="520" height="40" as="geometry" />
@@ -58,11 +43,11 @@
         <mxCell id="WgpJdFppTZSYGFujvV3v-3" value="1 : 2 :3&amp;nbsp;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="20" y="850" width="420" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BlVwWbMluLTH6g7UCJTK-4" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1050" y="110" width="500" height="760" as="geometry" />
+        <mxCell id="BlVwWbMluLTH6g7UCJTK-7" value="상세보기" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="910" y="120" width="67" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="BlVwWbMluLTH6g7UCJTK-5" value="대충 명언&lt;br&gt;-명언자-" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1270" y="420" width="60" height="30" as="geometry" />
+        <mxCell id="BlVwWbMluLTH6g7UCJTK-8" value="성공" style="labelPosition=center;verticalLabelPosition=middle;align=center;html=1;shape=mxgraph.basic.button;dx=10;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="60" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
