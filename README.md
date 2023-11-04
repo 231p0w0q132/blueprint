@@ -1,2 +1,2 @@
 # blueprint
-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
+pass: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
