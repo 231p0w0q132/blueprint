@@ -1,4 +1,7 @@
 {% extends 'base.html' %}
+{% block style %}
+<link rel="stylesheet" href="/static/index_css.css">
+{% endblock %}
 {% block content %}
 <div class="main_board">
   <div class="main_title">
@@ -9,9 +12,11 @@
         9
     </div>
     <div class="make_goal_list">
-      <div class="goal_item">
-        <div class="goal_">
-          asdasㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁㅁ
+        {% if goal_ %}   
+	{% for goal_item in goal_ %}
+   <div class="goal_item">
+    <div class="goal_">
+        {{ goal_item.subject }}
         </div>
         <a class="btn btn-success" style="margin-left:10px;" href="https://www.example.com">
           성공!
@@ -19,10 +24,13 @@
         <a class="btn btn-primary" style="margin-left:10px;" href="https://www.example.com">
           상세보기
         </a>
+  	
       </div>
-      <div class="btn btn-primary add_item_goal">
+      {% endfor %}
+      {% endif %}
+      <a href="{% url 'todo:make_goal' %}" class="btn btn-primary add_item_goal">
       목표 만들기
-      </div>
+      </a>
     </div>
   </div>
 </div>
