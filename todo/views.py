@@ -30,7 +30,7 @@ def read_more(request,fir):
         return redirect('todo:index')
     return render(request,'edit_goal.html',{'val':get_object_or_404(goal,pk=fir)})
 
-def read_more(request,fir):
+def suc_gl(request,fir):
     if request.method=='POST':
         cle_gl cg
         q=get_object_or_404(goal,pk=fir)
