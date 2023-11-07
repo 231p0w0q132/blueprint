@@ -1,4 +1,4 @@
-from django.shortcuts import render,redirect
+from django.shortcuts import render,redirect,get_object_or_404
 from .models import goal
 import datetime
 def index(request):
@@ -18,3 +18,7 @@ def make_goal(request):
         q.save()
         return redirect('todo:index')
     return render(request,'make_goal.html')
+
+def read_more(request,fir):
+    
+    return render(request,'edit_goal.html',{'val':get_object_or_404(goal,pk=fir)})

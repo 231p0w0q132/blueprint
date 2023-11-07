@@ -21,8 +21,8 @@
         <a class="btn btn-success" style="margin-left:10px;" href="https://www.example.com">
           성공!
         </a>
-        <a class="btn btn-primary" style="margin-left:10px;" href="https://www.example.com">
-          상세보기
+	<a class="btn btn-primary" style="margin-left:10px;" href="{% url 'todo:read_more' goal_item.id %}">
+		상세보기(수정)
         </a>
   	
       </div>

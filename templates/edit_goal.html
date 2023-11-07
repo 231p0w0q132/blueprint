@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% block style %}
+<link rel="stylesheet" href="/static/make_goal.css">
+{% endblock %}
+{% block content %}
+<form class="form_main" method="POST" action="{% url 'todo:make_goal' %}">
+	{% csrf_token %}
+      <div class="form-group">
+	      <input type="text" class="form-control" name="subject" placeholder="목표 입력" 
+							      value="{{ val.subject }}">
+      </div>
+      <div class="form-group">
+        <textarea class="sub_main" name="content"
+				   placeholder="부가 설명">{{ val.content }}
+	</textarea>
+      </div>
+       <div class="form-group" style="width:220px">
+         <label for="" >목표 일자</label>
+	 <input type="date" name="end_date" value="{{ val.end_date }}">
+       </div>
+      <button type="submit" class="subtton btn btn-primary">확인</button>
+    </form>
+{% endblock %}
