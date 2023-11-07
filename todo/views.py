@@ -20,5 +20,11 @@ def make_goal(request):
     return render(request,'make_goal.html')
 
 def read_more(request,fir):
-    
+     if request.method == 'POST':
+        q=get_object_or_404(goal,pk=fir)
+        q.subject=request.POST.get('subject')
+        q.content=request.POST.get('content')
+        q.end_date=request.POST.get('end_date')
+        q.save()
+        return redirect('todo:index')
     return render(request,'edit_goal.html',{'val':get_object_or_404(goal,pk=fir)})
