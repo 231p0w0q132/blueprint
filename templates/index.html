@@ -18,7 +18,7 @@
     <div class="goal_">
         {{ goal_item.subject }}
         </div>
-        <a class="btn btn-success" style="margin-left:10px;" href="https://www.example.com">
+        <a class="btn btn-success" style="margin-left:10px;" href="{% url 'todo:suc_gl' goal_item.id %}">
           성공!
         </a>
 	<a class="btn btn-primary" style="margin-left:10px;" href="{% url 'todo:read_more' goal_item.id %}">
