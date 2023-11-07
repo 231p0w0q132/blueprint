@@ -1,2 +1,11 @@
 # blueprint
-pass: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
+
+처리해야할일
+
+1.상세보기 처리
+
+2.끝난 목표 리스트 만들기
+
+3.성공 처리
+
+4.네비게이션바 처리
