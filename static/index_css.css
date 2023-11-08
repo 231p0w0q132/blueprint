@@ -73,3 +73,18 @@ html,body {
   left: 50%;
   transform: translate(-50%,150%);
 }
+.finsh_goal_item {
+  padding:5px;
+  position: relative;
+  display:flex;
+  width:90%;
+  margin:15px auto;
+  height:50px;
+  background:#58FEDB;
+  border-radius:10px;
+}
+.all_date{
+  position: absolute;
+  bottom:10px;
+  right:20px;
+}
