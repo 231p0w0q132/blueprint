@@ -73,7 +73,7 @@ html,body {
   left: 50%;
   transform: translate(-50%,150%);
 }
-.finsh_goal_item {
+.finish_goal_item {
   padding:5px;
   position: relative;
   display:flex;
