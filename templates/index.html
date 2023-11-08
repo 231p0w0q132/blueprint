@@ -1,37 +1,41 @@
-{% extends 'base.html' %}
-{% block style %}
-<link rel="stylesheet" href="/static/index_css.css">
-{% endblock %}
-{% block content %}
-<div class="main_board">
-  <div class="main_title">
-    목표 리스트!
-  </div>
-  <div class="sub_board">
-    <div class="finish_goal_list">
-        9
+  <div class="main_board">
+    <div class="main_title">
+      목표 리스트!
     </div>
-    <div class="make_goal_list">
-        {% if goal_ %}   
-	{% for goal_item in goal_ %}
-   <div class="goal_item">
-    <div class="goal_">
-        {{ goal_item.subject }}
-        </div>
-        <a class="btn btn-success" style="margin-left:10px;" href="{% url 'todo:suc_gl' goal_item.id %}">
-          성공!
-        </a>
-	<a class="btn btn-primary" style="margin-left:10px;" href="{% url 'todo:read_more' goal_item.id %}">
-		상세보기(수정)
-        </a>
-  	
+    <div class="sub_board">
+      <div class="finish_goal_list">
+          {% if finsh_ %}
+          {% for finish_item in finsh_ %}
+          <div class="finsh_goal_item">
+            {{ finish_item.subject }}
+          <div class="all_date">
+            {{ finish_item.create_date }}-{{ finish_item.end_date }}
+            </div>
+          </div>
+          {% endfor %}
+          {% endif %}
       </div>
-      {% endfor %}
-      {% endif %}
-      <a href="{% url 'todo:make_goal' %}" class="btn btn-primary add_item_goal">
-      목표 만들기
-      </a>
+      
+      <div class="make_goal_list">
+          {% if goal_ %}
+          {% for goal_item in goal_ %}
+     <div class="goal_item">
+      <div class="goal_">
+          {{ goal_item.subject }}
+          </div>
+          <a class="btn btn-success" style="margin-left:10px;" href="{% url 'todo:suc_gl' goal_item.id %}">
+            성공!
+          </a>
+          <a class="btn btn-primary" style="margin-left:10px;" href="{% url 'todo:read_more' goal_item.id %}">
+                  상세보기(수정)
+          </a>
+
+        </div>
+        {% endfor %}
+        {% endif %}
+        <a href="{% url 'todo:make_goal' %}" class="btn btn-primary add_item_goal">
+        목표 만들기
+        </a>
+      </div>
     </div>
   </div>
-</div>
-{% endblock %}
