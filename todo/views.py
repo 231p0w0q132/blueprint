@@ -1,9 +1,14 @@
 from django.shortcuts import render,redirect,get_object_or_404
 from .models import goal,cle_gl
+from django.core.paginator import Paginator
 import datetime
 def index(request):
+    page = int(request.GET.get('page',0))
+    if page>=1 :
+        page= page-1
     goal_=goal.objects.all()
-    return render(request,'index.html',{'goal_':goal_})
+    finish_=cle_gl.objects.all()[page*10:page*10+10] 
+    return render(request,'index.html',{'goal_':goal_,'finish_':finish_})
 
 def make_goal(request):
     
@@ -31,11 +36,12 @@ def read_more(request,fir):
     return render(request,'edit_goal.html',{'val':get_object_or_404(goal,pk=fir)})
 
 def suc_gl(request,fir):
-    if request.method=='POST':
-        cle_gl cg
+    if request.method=='GET':
+        cg=cle_gl()
         q=get_object_or_404(goal,pk=fir)
         cg.subject=q.subject
-        cg.content=q.content
-        cg.end_date=q.end_date
+        cg.cre_date=q.create_date
+        cg.end_date=str(datetime.datetime.now())[:10]
         cg.save()
+        q.delete()
         return redirect('todo:index')
