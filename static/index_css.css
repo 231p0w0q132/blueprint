@@ -28,7 +28,7 @@ html,body {
   justify-content: space-between;
 }
 .finish_goal_list {
-  
+  position: relative;
   width: 40vw;
   height: 80vh;
   border-radius: 10px;
@@ -87,4 +87,10 @@ html,body {
   position: absolute;
   bottom:10px;
   right:20px;
+}
+.finish_page {
+  position: absolute;
+  bottom: 0px;
+  left:50%;
+  transform: translate(-50%,-50%);
 }
