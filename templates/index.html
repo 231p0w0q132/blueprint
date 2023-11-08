@@ -3,7 +3,7 @@
 <link rel="stylesheet" href="/static/index_css.css">
 {% endblock %}
 {% block content %}
-  <div class="main_board">
+ <div class="main_board">
     <div class="main_title">
       목표 리스트!
     </div>
@@ -11,14 +11,25 @@
       <div class="finish_goal_list">
           {% if finish_ %}
           {% for finish_item in finish_ %}
+          {% if finish_item >= page*10 and page*10+10>= finish_item  %}
           <div class="finish_goal_item">
             {{ finish_item.subject }}
           <div class="all_date">
-            {{ finish_item.cre_date }}-{{ finish_item.end_date }}
+            {{ finish_item.create_date }}-{{ finish_item.end_date }}
             </div>
           </div>
+          {% endif %}
           {% endfor %}
           {% endif %}
+        
+        <nav aria-label="Page navigation example">
+          <ul class="finish_page pagination">
+            <li class="page-item"><a class="page-link" href="/?page=1">1</a></li>
+            <li class="page-item"><a class="page-link" href="/?page=2">2</a></li>
+            <li class="page-item"><a class="page-link" href="/?page=3">3</a></li>
+            
+          </ul>
+        </nav>
       </div>
       
       <div class="make_goal_list">
