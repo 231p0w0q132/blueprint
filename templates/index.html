@@ -9,9 +9,9 @@
     </div>
     <div class="sub_board">
       <div class="finish_goal_list">
-          {% if finsh_ %}
-          {% for finish_item in finsh_ %}
-          <div class="finsh_goal_item">
+          {% if finish_ %}
+          {% for finish_item in finish_ %}
+          <div class="finish_goal_item">
             {{ finish_item.subject }}
           <div class="all_date">
             {{ finish_item.create_date }}-{{ finish_item.end_date }}
